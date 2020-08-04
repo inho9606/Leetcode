@@ -1,6 +1,6 @@
 // https://leetcode.com/problems/network-delay-time/submissions/
 // Idea: BFS on the given Graph recording time. If there is a node that is not visited at all, then it should return -1.
-// If a visited node can take faster, then update it. It is like Dijkstra Algorythm
+// If a visited node can take faster, then update it. It is like Dijkstra Algorithm
 // time: O(n) space: O(n)
 // Runtime: 220 ms, faster than 97.53% of C++ online submissions for Network Delay Time.
 // Memory Usage: 40.2 MB, less than 63.41% of C++ online submissions for Network Delay Time.
