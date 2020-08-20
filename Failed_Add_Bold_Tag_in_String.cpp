@@ -1,6 +1,6 @@
 // https://leetcode.com/problems/add-bold-tag-in-string/
-// Maybe I did not understand problem well..
-// Failed on hiden testcases, but I think it is not mentioned on the question..
+// Maybe I did not understand specification well..
+// Failed on hidden testcases, but I think it is not mentioned on the question..
 class Solution {
 public:
 	string addBoldTag(string s, vector<string>& dict) {
