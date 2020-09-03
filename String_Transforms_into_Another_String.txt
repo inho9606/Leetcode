@@ -1,0 +1,23 @@
+// https://leetcode.com/problems/string-transforms-into-another-string/submissions/
+// I think I didn't understand the problem. I don't know why the testcase "abcdefghijklmnopqrstuvwxyz","bcdefghijklmnopqrstuvwxyza" should be false. ...
+// This solution is not my solution, it's from discuss board.
+class Solution {
+public:
+	bool canConvert(string str1, string str2) {
+		vector<int> s1(128, 0);
+		if(str1 == str2) return 1;
+		for(int i=0; i<str1.size(); i++) {
+			if(s1[str1[i]] == 0) s1[str1[i]] = str2[i];
+			else if(s1[str1[i]] != str2[i]) return false;
+		}
+bitset<26> chars;
+int char_count = 0;
+for (char c : str2) {
+char_count += !chars[c];
+if (char_count == 26)
+return false;
+chars[c] = 1;
+}
+		return 1;
+	}
+};
