@@ -1,5 +1,5 @@
 // https://leetcode.com/problems/diameter-of-binary-tree/submissions//**
-// I. The longest length of a subtree is dpeth of leftnodes + depth of rightnodes from root.
+// I. The longest length of a subtree is depth of leftnodes + depth of rightnodes from root.
 // II. A tree can have a subtree that has longer diameter than itself, so I would check the length of each subtree's diameter.
 // time: O(n) space: O(n)
 // Runtime: 8 ms, faster than 98.88% of C++ online submissions for Diameter of Binary Tree.
