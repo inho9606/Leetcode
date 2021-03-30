@@ -1,5 +1,6 @@
 // https://leetcode.com/problems/climbing-stairs/submissions/class Solution {
 // time: O(n)
+class Solution {
 public:
 	int climbStairs(int n) {
 	vector<int> f(n);
